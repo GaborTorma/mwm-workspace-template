@@ -1,0 +1,29 @@
+{
+  "name": "@gabortorma/mwm-workspace-template",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@9.6.0+sha512.38dc6fba8dba35b39340b9700112c2fe1e12f10b17134715a4aa98ccf7bb035e76fd981cf0bb384dfa98f8d6af5481c2bef2f4266a24bfa20c34eb7147ce0b5e",
+  "description": "Multi-repo Workspace Manager",
+  "author": "gabortorma",
+  "license": "MIT",
+  "repository": {
+    "url": "git+ssh://git@github.com/gabortorma/mwm-workspace-template.git"
+  },
+  "keywords": [
+    "mwm",
+    "workspace",
+    "template"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@gabortorma/antfu-eslint-config": "0.5.16",
+    "@gabortorma/mwm": "^0.2.1",
+    "@types/node": "^20.14.12",
+    "dotenv-cli": "^7.4.2",
+    "jiti": "^1.21.6",
+    "typescript": "^5.5.4"
+  }
+}
