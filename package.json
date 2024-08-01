@@ -16,7 +16,8 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "release": "dotenv release-it"
   },
   "devDependencies": {
     "@gabortorma/antfu-eslint-config": "0.5.16",
