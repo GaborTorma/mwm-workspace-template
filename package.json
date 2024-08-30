@@ -22,7 +22,7 @@
   "devDependencies": {
     "@gabortorma/antfu-eslint-config": "latest",
     "@gabortorma/mwm": "latest",
-    "@types/node": "^20.16.1",
+    "@types/node": "^20.16.2",
     "dotenv-cli": "^7.4.2",
     "typescript": "^5.5.4"
   }
