@@ -7,6 +7,7 @@
   "author": "gabortorma",
   "license": "MIT",
   "repository": {
+    "type": "github",
     "url": "git+ssh://git@github.com/gabortorma/mwm-workspace-template.git"
   },
   "keywords": [
