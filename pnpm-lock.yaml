@@ -12,7 +12,7 @@ importers:
         specifier: ^2.0.1
         version: 2.0.1(@types/eslint@9.6.1)(@typescript-eslint/utils@8.6.0(eslint@9.11.0(jiti@1.21.6))(typescript@5.6.2))(@vue/compiler-sfc@3.5.7)(jiti@1.21.6)(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.7(@types/node@22.5.5))
       '@gabortorma/mwm':
-        specifier: ^0.8.6
+        specifier: ^0.8.8
         version: link:../..
       '@types/node':
         specifier: ^22.5.5
