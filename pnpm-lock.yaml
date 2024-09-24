@@ -23,6 +23,9 @@ importers:
       dotenv-cli:
         specifier: ^7.4.2
         version: 7.4.2
+      pnpm:
+        specifier: ^9.11.0
+        version: 9.11.0
       release-it:
         specifier: ^17.6.0
         version: 17.6.0(typescript@5.6.2)
@@ -1861,6 +1864,11 @@ packages:
   pluralize@8.0.0:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
+
+  pnpm@9.11.0:
+    resolution: {integrity: sha512-CiA/+u1aP2MkLNBkyPtYkjZsED4ygHkxj3gGLyTqjJ1QvGpHqjVnyr79gk0XDnj6J0XtHxaxMuFkNhRrdojxmw==}
+    engines: {node: '>=18.12'}
+    hasBin: true
 
   postcss-selector-parser@6.1.2:
     resolution: {integrity: sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==}
@@ -4499,6 +4507,8 @@ snapshots:
       pathe: 1.1.2
 
   pluralize@8.0.0: {}
+
+  pnpm@9.11.0: {}
 
   postcss-selector-parser@6.1.2:
     dependencies:
