@@ -24,9 +24,9 @@
   },
   "devDependencies": {
     "@antfu/ni": "^0.23.0",
-    "@gabortorma/antfu-eslint-config": "^2.0.1",
-    "@gabortorma/mwm": "^0.8.8",
-    "@types/node": "^22.5.5",
+    "@gabortorma/antfu-eslint-config": "^2.0.4",
+    "@gabortorma/mwm": "^0.8.10",
+    "@types/node": "^22.6.1",
     "dotenv-cli": "^7.4.2",
     "typescript": "^5.6.2"
   }
