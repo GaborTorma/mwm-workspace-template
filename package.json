@@ -18,9 +18,12 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "test:types": "tsc --noEmit",
+    "prerelease": "nr lint && nr test:types",
     "release": "dotenv release-it"
   },
   "devDependencies": {
+    "@antfu/ni": "^0.23.0",
     "@gabortorma/antfu-eslint-config": "^2.0.1",
     "@gabortorma/mwm": "^0.8.8",
     "@types/node": "^22.5.5",
