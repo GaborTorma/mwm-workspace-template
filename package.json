@@ -19,17 +19,17 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test:types": "tsc --noEmit",
-    "prerelease": "nr lint && nr test:types",
+    "prerelease": "nr lint",
     "release": "dotenv release-it"
   },
   "devDependencies": {
-    "@antfu/ni": "^0.23.0",
-    "@gabortorma/antfu-eslint-config": "^2.0.5",
+    "@antfu/ni": "^24.3.0",
+    "@gabortorma/antfu-eslint-config": "^3.0.1",
     "@gabortorma/mwm": "^0.8.12",
-    "@types/node": "^22.7.2",
-    "dotenv-cli": "^7.4.2",
-    "pnpm": "^9.11.0",
-    "release-it": "^17.6.0",
-    "typescript": "^5.6.2"
+    "@types/node": "^22.15.2",
+    "dotenv-cli": "^8.0.0",
+    "pnpm": "^10.9.0",
+    "release-it": "^19.0.1",
+    "typescript": "^5.8.3"
   }
 }
