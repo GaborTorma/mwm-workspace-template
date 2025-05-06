@@ -2,7 +2,7 @@
   "name": "@gabortorma/mwm-workspace-template",
   "type": "module",
   "version": "0.0.13",
-  "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b",
+  "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39",
   "description": "Multi-repo Workspace Manager",
   "author": "gabortorma",
   "license": "MIT",
@@ -26,10 +26,10 @@
     "@antfu/ni": "^24.3.0",
     "@gabortorma/antfu-eslint-config": "^3.0.1",
     "@gabortorma/mwm": "^0.8.12",
-    "@types/node": "^22.15.2",
+    "@types/node": "^22.15.12",
     "dotenv-cli": "^8.0.0",
-    "pnpm": "^10.9.0",
-    "release-it": "^19.0.1",
+    "pnpm": "^10.10.0",
+    "release-it": "^19.0.2",
     "typescript": "^5.8.3"
   }
 }
